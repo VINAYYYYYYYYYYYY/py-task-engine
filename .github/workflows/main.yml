@@ -1,0 +1,1 @@
+name: Task Engine CI\non: [push]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n    - uses: actions/checkout@v3\n    - name: Run tests\n      run: python src/main.py list
